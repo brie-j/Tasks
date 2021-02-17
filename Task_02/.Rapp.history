@@ -1,0 +1,30 @@
+install . packages ("swirl")#
+library (swirl)
+install.packages ("swirl")#
+library (swirl)
+library (swirl)
+x <- 1
+swirl()
+1
+cd ~/Desktop
+cd ~/Desktop/Evolution/Tasks
+set wd('')
+stewd('')
+setwd('')
+setwd(' ')
+setwd('~/Desktop/Evolution/tasks/Task_02')#
+data <- read.csv('http://jonsmitchell.com/data/beren.csv',stringsAsFactors=F)#
+write.csv(Data, 'rawdata.csv', quote=F)#
+length(Data)#
+nrow(Data#
+ncol(Data)#
+colnames(Data)#
+head(Data)#
+Data[1,]#
+Data[2,]#
+Data[1:3,]#
+Data[1:3, 4]#
+Data[1:5, 1:3]
+setwd('~/Desktop/Evolution/tasks/Task_02')
+data <- read.csv('http://jonsmitchell.com/data/beren.csv',stringsAsFactors=F)
+write.csv(Data, 'rawdata.csv', quote=F)
