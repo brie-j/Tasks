@@ -1,0 +1,84 @@
+setwd('/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()#
+Fractions <- c()#
+for(i in 1:100) {#
+	births[i] <- runif(1)#
+	Fractions[i] <- runif(1)#
+	trees[[i]] <- pbtree(b= births[i], d = (births[i] * Fractions[i]),n = 100, = 1)#
+}#
+trees#
+trees[[i]]#
+plot(trees[[i]])#
+install.packages('geiger')#
+library('geiger')
+setwd('~/Desktop/Evolution/Tasks/Task_09')
+library('phytools')#
+trees <- list()
+births <-  c()#
+Fractions <- c()#
+for(i in 1:100) {#
+	births[i] <- runif(1)#
+	Fractions[i] <- runif(1)#
+	trees[[i]] <- pbtree(b= births[i], d = (births[i] * Fractions[i]),n = 100, = 1)#
+}#
+trees#
+trees[[i]]#
+plot(trees[[i]])#
+install.packages('geiger')#
+library('geiger')
+setwd('/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()
+setwd('~/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')
+trees <- list()
+births <-  c()
+Fractions <- c()
+for(i in 1:100) {
+births[i] <- runif(1)
+Fractions[i] <- runif(1)
+trees[[i]] <- pbtree(b= births[i], d = (births[i] * Fractions[i]),n = 100, = 1)
+setwd('~/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()#
+Fractions <- c()
+for(i in 1:100) {
+births[i] <- runif(1)
+Fractions[i] <- runif(1)
+trees[[i]] <- pbtree(b = births[i], d = (births[i] * Fractions[i]),n = 100, = 1)
+setwd('~/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()#
+Fractions <- c()
+for(i in 1:100) {
+births[i] <- runif(1)
+Fractions[i] <- runif(1)
+trees[[i]] <- pbtree(b = births[i], d = (births[i] * Fractions[i]),n = 100,
+= 1)
+}
+setwd(&#39;~/Desktop/Evolution/Tasks/Task_09&#39;)#
+library(&#39;phytools&#39;)#
+trees &lt;- list()#
+births &lt;- c()#
+Fractions &lt;- c()
+setwd('~/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()#
+Fractions <- c()
+setwd('~/Desktop/Evolution/Tasks/Task_09')#
+library('phytools')#
+trees <- list()#
+births <-  c()#
+Fractions <- c()
+for(i in 1:100) {
+births[i] &lt;- runif(1)
+Fractions[i] &lt;- runif(1)
+trees[[i]] &lt;- pbtree(b = births[i], d = (births[i] * Fractions[i]), n = 100,#
+nsim = 1)
+}
