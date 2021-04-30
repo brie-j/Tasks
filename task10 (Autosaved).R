@@ -40,8 +40,7 @@ legend('top', Frequencies, fill = 'orange', 'green')
 dev.off()
 
 ##Q3:Very small amount at the parameters for state 0 to 1. Net diversification rate is changing. 
-
-Data 
+ 
 head(Data)
 Freq1_Trial1 <- Data[,2]
 Freq1_Trial2 <- Data[,5]
